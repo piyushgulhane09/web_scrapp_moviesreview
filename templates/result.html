@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movies reviews</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1 class="table-title">{{movie_name.replace('+','')}} Reviews</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Runtime</th>
+          <th>Director</th>
+          <th>Genres</th>
+          <th>Rating</th>
+          <th>Votes</th>
+          <th>Checks</th>
+          <th>Favs</th>
+          <th>Dislikes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{reviews[0]}}</td>
+          <td>{{reviews[1]}}</td>
+          <td>{{reviews[2]}}</td>
+          <td>{{reviews[3]}}</td>
+          <td>{{reviews[4]}}</td>
+          <td>{{reviews[5]}}</td>
+          <td>{{reviews[6]}}</td>
+          <td>{{reviews[7]}}</td>
+          <td>{{reviews[8]}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Top 3 Comments</h1>
+    {% for i in range(0,3) %}
+    <div class="comment">
+        <h3 class="author">{{author_name[i]}}</h3>
+        <h4>{{comments[i]}}</h4>
+    </div>
+    {% endfor %}
+
+  </body>
+</html>
+
+
+

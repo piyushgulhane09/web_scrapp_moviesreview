@@ -1,0 +1,30 @@
+2023-03-04 21:42:07,652 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.19:5000
+2023-03-04 21:42:07,652 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 21:42:25,579 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:25] "GET / HTTP/1.1" 200 -
+2023-03-04 21:42:25,743 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-04 21:42:27,303 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-04 21:42:30,664 root INFO  Raw urlhttps://icheckmovies.com/movies/pk
+2023-03-04 21:42:31,967 root INFO  list of reviews ['2014', '153min.', 'RajkumarHirani', 'Drama,Comedy,Sci-Fi', '8.1', '86,144', '1,754', '115', '63', '6.6%(1:15)', '2:1']
+2023-03-04 21:42:31,969 root INFO  list of authors['John Milton', 'Ferneu', 'pramodc84']
+2023-03-04 21:42:31,970 root INFO  List of comments["\nHe went full retard. The trailer of this movie almost seems like a faux trailer out of Tropic Thunder, but it's a real movie. I know tastes are different, but I can't believe this has a 8.6 on IMDb, and thus currently a place in the top 250. Good Lord...\n                        ", '\nHere we go again...\n                        ', "\nDifferent but just average. Doesn't deserve top 250 at all.\n                        "]
+2023-03-04 21:42:31,976 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:31] "POST /review HTTP/1.1" 200 -
+2023-03-04 21:42:32,064 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 21:42:42,452 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 21:42:47,507 root INFO  Raw urlhttps://icheckmovies.com/movies/kaabil
+2023-03-04 21:42:48,630 root INFO  list of reviews ['2017', '139min.', 'SanjayGupta', 'Action,Drama,Romance', '-', '0', '57', '1', '0', '1.8%(1:57)', '1:0']
+2023-03-04 21:42:48,632 root INFO  list of authors[]
+2023-03-04 21:42:48,633 root INFO  list index out of range
+2023-03-04 21:42:48,633 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 21:42:48] "POST /review HTTP/1.1" 200 -
+2023-03-04 21:43:00,155 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.19:5000
+2023-03-04 21:43:00,155 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 21:54:09,393 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.19:5000
+2023-03-04 21:54:09,393 werkzeug INFO  [33mPress CTRL+C to quit[0m
