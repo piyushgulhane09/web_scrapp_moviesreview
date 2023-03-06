@@ -28,3 +28,153 @@
  * Running on http://127.0.0.1:5000
  * Running on http://172.18.0.19:5000
 2023-03-04 21:54:09,393 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 23:04:10,108 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-03-04 23:04:10,108 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 23:04:10,109 werkzeug INFO   * Restarting with stat
+2023-03-04 23:04:10,415 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:04:10,415 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:04:32,228 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-03-04 23:04:32,228 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 23:04:32,229 werkzeug INFO   * Restarting with stat
+2023-03-04 23:04:32,535 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:04:32,535 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:20:32,471 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-03-04 23:20:32,471 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 23:20:32,472 werkzeug INFO   * Restarting with stat
+2023-03-04 23:20:32,789 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:20:32,789 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:23:28,169 werkzeug INFO   * Detected change in '/config/workspace/app.py', reloading
+2023-03-04 23:23:28,207 werkzeug INFO   * Restarting with stat
+2023-03-04 23:23:28,516 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:23:28,517 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:24:05,826 werkzeug INFO   * Detected change in '/config/workspace/app.py', reloading
+2023-03-04 23:24:05,862 werkzeug INFO   * Restarting with stat
+2023-03-04 23:24:06,169 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:24:06,170 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:24:08,201 werkzeug INFO   * Detected change in '/config/workspace/app.py', reloading
+2023-03-04 23:24:08,235 werkzeug INFO   * Restarting with stat
+2023-03-04 23:24:08,544 werkzeug WARNING   * Debugger is active!
+2023-03-04 23:24:08,545 werkzeug INFO   * Debugger PIN: 662-038-161
+2023-03-04 23:24:12,589 werkzeug INFO   * Detected change in '/config/workspace/app.py', reloading
+2023-03-04 23:24:12,624 werkzeug INFO   * Restarting with stat
+2023-03-04 23:24:24,797 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.19:5000
+2023-03-04 23:24:24,797 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-04 23:24:37,347 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:24:37] "GET / HTTP/1.1" 200 -
+2023-03-04 23:24:37,453 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:24:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:24:41,284 root INFO  Raw urlhttps://icheckmovies.com/movies/kabil
+2023-03-04 23:24:42,819 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:24:42,820 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:24:42] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:25:06,016 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:06] "GET / HTTP/1.1" 200 -
+2023-03-04 23:25:31,818 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:31] "GET / HTTP/1.1" 200 -
+2023-03-04 23:25:32,358 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-04 23:25:32,418 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-04 23:25:39,466 root INFO  Raw urlhttps://icheckmovies.com/movies/Holly
+2023-03-04 23:25:40,591 root INFO  list of reviews ['2006', '114min.', 'GuyMoshe', 'Drama', '7.1', '663', '17', '2', '1', '11.8%(1:9)', '2:1']
+2023-03-04 23:25:40,592 root INFO  list of authors[]
+2023-03-04 23:25:40,593 root INFO  list index out of range
+2023-03-04 23:25:40,593 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:40] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:25:57,379 root INFO  Raw urlhttps://icheckmovies.com/movies/Holly
+2023-03-04 23:25:58,456 root INFO  list of reviews ['2006', '114min.', 'GuyMoshe', 'Drama', '7.1', '663', '17', '2', '1', '11.8%(1:9)', '2:1']
+2023-03-04 23:25:58,457 root INFO  list of authors[]
+2023-03-04 23:25:58,458 root INFO  list index out of range
+2023-03-04 23:25:58,458 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:25:58] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:26:46,911 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:26:46] "GET / HTTP/1.1" 200 -
+2023-03-04 23:26:46,960 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:26:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:26:51,968 root INFO  Raw urlhttps://icheckmovies.com/movies/007
+2023-03-04 23:26:53,886 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:26:53,887 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:26:53] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:26:57,737 root INFO  Raw urlhttps://icheckmovies.com/movies/007
+2023-03-04 23:26:58,784 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:26:58,785 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:26:58] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:27:00,622 root INFO  Raw urlhttps://icheckmovies.com/movies/007
+2023-03-04 23:27:01,677 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:27:01,678 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:01] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:27:07,646 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:07] "GET / HTTP/1.1" 200 -
+2023-03-04 23:27:07,689 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:27:17,149 root INFO  Raw urlhttps://icheckmovies.com/movies/Missing+impossible+
+2023-03-04 23:27:18,633 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:27:18,633 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:18] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:27:31,397 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:31] "GET / HTTP/1.1" 200 -
+2023-03-04 23:27:31,495 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:27:37,767 root INFO  Raw urlhttps://icheckmovies.com/movies/Mission+impossible+
+2023-03-04 23:27:39,273 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:27:39,274 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:27:39] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:28:34,227 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:28:34] "GET / HTTP/1.1" 200 -
+2023-03-04 23:28:34,407 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:28:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:28:37,176 root INFO  Raw urlhttps://icheckmovies.com/movies/mission+impossible
+2023-03-04 23:28:38,511 root INFO  list of reviews ['1996', '110min.', 'BrianDePalma', 'Action,Adventure,Thriller', '7.1', '233,317', '58,029', '1,172', '284', '2.0%(1:50)', '4:1']
+2023-03-04 23:28:38,513 root INFO  list of authors['--koenhopp--', 'IreneAdler', 'Earring72']
+2023-03-04 23:28:38,514 root INFO  List of comments['\nwell first time i watched it i thought this movie was full of clichés. but now i realise, that the clichés come from this movie.\n                        ', '\nAbsolutely enjoyable, thrilling, nice action. Like it!\n                        ', '\nFun and exciting first entry of a great action adventure series! Saw this one in the cinema and after that countless times on dvd or TV. This was the firts time in at least 7 years and holds up great, very enjoyable.\n                        ']
+2023-03-04 23:28:38,522 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:28:38] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:28:38,620 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:28:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:29:03,662 root INFO  Raw urlhttps://icheckmovies.com/movies/Inception+
+2023-03-04 23:29:05,441 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:29:05,441 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:29:05] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:30:20,956 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:20] "GET / HTTP/1.1" 200 -
+2023-03-04 23:30:21,380 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-04 23:30:21,547 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-04 23:30:22,159 root INFO  Raw urlhttps://icheckmovies.com/movies/Inception+
+2023-03-04 23:30:23,208 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:30:23,209 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:23] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:30:36,383 root INFO  Raw urlhttps://icheckmovies.com/movies/Mission+impossible
+2023-03-04 23:30:37,599 root INFO  list of reviews ['1996', '110min.', 'BrianDePalma', 'Action,Adventure,Thriller', '7.1', '233,317', '58,029', '1,172', '284', '2.0%(1:50)', '4:1']
+2023-03-04 23:30:37,601 root INFO  list of authors['--koenhopp--', 'IreneAdler', 'Earring72']
+2023-03-04 23:30:37,602 root INFO  List of comments['\nwell first time i watched it i thought this movie was full of clichés. but now i realise, that the clichés come from this movie.\n                        ', '\nAbsolutely enjoyable, thrilling, nice action. Like it!\n                        ', '\nFun and exciting first entry of a great action adventure series! Saw this one in the cinema and after that countless times on dvd or TV. This was the firts time in at least 7 years and holds up great, very enjoyable.\n                        ']
+2023-03-04 23:30:37,603 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:37] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:30:37,828 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:30:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:31:37,756 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:31:37] "GET / HTTP/1.1" 200 -
+2023-03-04 23:31:37,953 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:31:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:31:45,742 root INFO  Raw urlhttps://icheckmovies.com/movies/Spiderman+
+2023-03-04 23:31:47,616 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:31:47,617 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:31:47] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:32:32,718 root INFO  Raw urlhttps://icheckmovies.com/movies/Spiderman+
+2023-03-04 23:32:33,769 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:32:33,770 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:33] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:32:39,733 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:39] "GET / HTTP/1.1" 200 -
+2023-03-04 23:32:39,897 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-04 23:32:41,759 root INFO  Raw urlhttps://icheckmovies.com/movies/Spiderman+
+2023-03-04 23:32:42,814 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:32:42,815 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:42] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:32:43,488 root INFO  Raw urlhttps://icheckmovies.com/movies/spider+man+no+way+home
+2023-03-04 23:32:44,996 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:32:44,997 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:44] "POST /review HTTP/1.1" 200 -
+2023-03-04 23:32:57,660 root INFO  Raw urlhttps://icheckmovies.com/movies/Ironman
+2023-03-04 23:32:59,180 root INFO  HTTP Error 404: Not Found
+2023-03-04 23:32:59,181 werkzeug INFO  172.18.0.2 - - [04/Mar/2023 23:32:59] "POST /review HTTP/1.1" 200 -
+2023-03-06 15:50:49,509 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-03-06 15:50:49,509 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-06 15:51:04,876 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:04] "GET / HTTP/1.1" 200 -
+2023-03-06 15:51:05,132 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2023-03-06 15:51:06,952 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-06 15:51:11,375 root INFO  Raw urlhttps://icheckmovies.com/movies/spiderman
+2023-03-06 15:51:12,855 root INFO  list of reviews ['1990', '5min.', 'ChristianDavi', 'Short', '5.6', '90', '29', '1', '0', '3.4%(1:29)', '1:0']
+2023-03-06 15:51:12,856 root INFO  list of authors[]
+2023-03-06 15:51:12,857 root INFO  list index out of range
+2023-03-06 15:51:12,858 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:12] "POST /review HTTP/1.1" 200 -
+2023-03-06 15:51:20,112 root INFO  Raw urlhttps://icheckmovies.com/movies/pk
+2023-03-06 15:51:21,420 root INFO  list of reviews ['2014', '153min.', 'RajkumarHirani', 'Drama,Comedy,Sci-Fi', '8.1', '86,144', '1,755', '115', '63', '6.6%(1:15)', '2:1']
+2023-03-06 15:51:21,422 root INFO  list of authors['John Milton', 'Ferneu', 'pramodc84']
+2023-03-06 15:51:21,423 root INFO  List of comments["\nHe went full retard. The trailer of this movie almost seems like a faux trailer out of Tropic Thunder, but it's a real movie. I know tastes are different, but I can't believe this has a 8.6 on IMDb, and thus currently a place in the top 250. Good Lord...\n                        ", '\nHere we go again...\n                        ', "\nDifferent but just average. Doesn't deserve top 250 at all.\n                        "]
+2023-03-06 15:51:21,429 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:21] "POST /review HTTP/1.1" 200 -
+2023-03-06 15:51:21,712 werkzeug INFO  172.18.0.2 - - [06/Mar/2023 15:51:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2023-03-06 16:00:14,301 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-03-06 16:00:14,302 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-06 16:00:14,302 werkzeug INFO   * Restarting with stat
+2023-03-06 16:00:14,612 werkzeug WARNING   * Debugger is active!
+2023-03-06 16:00:14,613 werkzeug INFO   * Debugger PIN: 213-213-448
+2023-03-06 16:05:36,841 werkzeug INFO  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-03-06 16:05:36,842 werkzeug INFO  [33mPress CTRL+C to quit[0m
+2023-03-06 16:05:36,842 werkzeug INFO   * Restarting with stat
+2023-03-06 16:05:37,151 werkzeug WARNING   * Debugger is active!
+2023-03-06 16:05:37,152 werkzeug INFO   * Debugger PIN: 213-213-448
